@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.navbar-nav li {
+    margin-top: 14px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.under-link {
+    margin: 3px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15pt;
+    font-weight: 400 !important;
+    font-weight: bold;
+    color: #545454;
+    font-size: 16pt;
+    display: inline-block;
+    position: relative;
+}
+
+.under-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f36c4a;
+    transition: width 0.10s ease-out;
+
+}
+
+.under-link:hover::before {
+    width: 100%;
+
+}
+
+.under-link:hover {
+    color: #f36c4a;
+}
+
+ul.mx-auto {
+    margin-left: 100px !important;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(../../assets/logo.png);
+    width: 150px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 5%;
+    margin-left: -10px !important;
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    border: none!important;
+    font: normal normal normal 30px/1 FontAwesome;
+    color: #f36c4a;
+    content: "\f107"!important; /* the desired FontAwesome icon */
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background: #F36C4A;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    left: -5%;
+}
+
+button:hover {
+    background: #545454;
+}
+
+#btn-sair {
+    width: 130px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background: #F36C4A;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#usuario-sair {
+    align-items: center !important;
+    margin-left: 0;
+}
+
+.nav-link {
+
+    color: #545454 !important;
+}
+
+a, p {
+    margin: 3px;
+    font-weight: bold;
+    color: #545454;
+    font-size: 16pt;
+    position: relative;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15pt;
+    font-weight: 400 !important;
+}
+

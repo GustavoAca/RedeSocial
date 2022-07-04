@@ -1,0 +1,102 @@
+.botao{
+  flex-direction: column;
+  position: fixed;
+  left: 63em;
+  top: 400px;
+}
+
+.botao p {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.publicar {
+  background-color:#f16a4a;
+  color: #fff;
+}
+
+.btn-personalizado{
+  background-color:#f16a4a;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+p{
+  opacity: 1;
+}
+
+.seleciona {
+  opacity: 1;
+}
+
+.fontPostTem{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #545454;
+  font-size: 17px;
+}
+
+i {
+  color: white;
+}
+
+
+.btn-Laranja{
+  background-color: #f16a4a !important;
+  color: white !important;
+  border-color: #f16a4a !important;
+  outline: none;
+  border: none;
+}
+
+.btn-Laranja:hover{
+  background-color: #545454 !important;
+  color: white !important;
+  border-color: #545454 !important;
+}
+
+.btn-Azul{
+  background-color: #215DF2 ;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn-Azul:hover{
+  background-color: #545454;
+  color:white;
+  border: none;
+}
+
+input, textarea{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+
+.modal-title{
+  margin-left: 145px;
+}
+
+.btnMargin {
+  margin-right: 150px;
+}
+
+select{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+.ft{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #545454;
+}
+
+h5{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #545454;
+}
+
+

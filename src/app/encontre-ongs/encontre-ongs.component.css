@@ -1,0 +1,74 @@
+.corpocard{
+    background-color: rgb(217, 217, 217);
+    
+}
+
+button:hover{
+    background-color: #545454;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.fonteencontre{
+    font-size: 72px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    line-height: 100px;
+    font-weight: ExtraLight 200;
+}
+
+.corong{
+    color: #545454;
+}
+
+
+
+i{
+    color: white;
+}
+
+.botaopesq:hover{
+    background-color:#545454;
+    color: #fdfefd;  
+    border-color: #545454; 
+}
+
+.fundo {
+
+    background-image: url(
+        https://i.imgur.com/7uvv0tE.jpg
+  );
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+  } 
+
+#fotocard{
+    background-size: contain;
+    object-fit: initial; 
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+input{
+    background-color: rgb(217, 217, 217);
+}
+
+input:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+.tamanhocard{
+    width: 1200px;
+    height: 120px;
+}
+
+.tamanhofoto{
+    width: 125px;
+    height: 119px;
+}

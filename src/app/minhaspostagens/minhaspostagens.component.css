@@ -1,0 +1,129 @@
+.botaoCircular{
+    border: none;
+    margin: 10px;
+    background-color:  #f16a4a;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.botaoCircular:hover {
+    background-color:#545454;
+    color: #fdfefd;
+  }
+
+  .btn-danger{
+    background-color:  #f16a4a;
+    border: none;
+    margin-right: 8px;
+
+  }
+
+  .btn-danger:hover{
+    background-color:#545454;
+    color: #fdfefd;
+    border: none;
+
+  }
+
+  .btn-success{
+    background-color:  #215df2;
+    color: #fdfefd;
+    border: none;
+  }
+
+  .btn-success:hover{
+    background-color:#545454;
+    color: #fdfefd;
+    border: none;
+  }
+
+  .btn-secondary{
+    background-color:  #f16a4a;
+    border: none;
+    margin-right: 8px;
+  }
+
+  .btn-secondary:hover{
+    background-color:#545454;
+    color: #fdfefd;
+  }
+
+
+  .btn-primary{
+    background-color:  #215df2;
+    color: #fdfefd;
+    border: none;
+  }
+
+  .btn-primary:hover{
+    background-color:#545454;
+    color: #fdfefd;
+  }
+  
+.iconDentro input{
+    padding-left: 40px;
+  }
+  
+.iconDentro{
+    position: relative;
+  }
+  
+.iconDentro i{
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    padding: 9px 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.fundo{
+  background-image: url(https://i.imgur.com/miHbfgN.jpg);  
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+} 
+
+.textoModal{
+  font-family: 'Epilogue', sans-serif;
+  margin-left: 150px;
+  margin-bottom: 0px;
+  color: #545454;
+}
+
+.botaoModalCent{
+  margin-right: 140px;
+}
+
+.font {
+  font-family: 'Epilogue', sans-serif;
+}
+
+/*Deixar os fundos cinza*/
+
+input{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+textarea{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+select{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+.txcad{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #545454;
+  
+}
+
+/*Deixa os fundos cinza*/

@@ -1,0 +1,39 @@
+<div class="container-fluid fundo">
+    <div class="row">
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-6">
+            <div>
+                <h1 class="fonteencontre"><strong class="text-warning">encontre </strong>
+                    <strong class="corong">ongs</strong>
+                </h1>
+            </div>
+
+            <div class="col-md-10 input-group mb-3 mt-0 p-0">
+                <input type="text" class="form-control">
+                <div class="input-group-append"><button class="btn btn-warning">
+                        <i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="card mb-3 tamanhocard" *ngFor="let usuario of listaUsuariosOng" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="{{usuario.imagemUrl}}" class="card-img tamanhofoto" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{usuario.nome}}</h5>
+                            <h6 class="card-text">{{usuario.usuarioEmail}}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-5"></div>
+
+    </div>
+</div>

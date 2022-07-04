@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.navbar-nav li {
+    margin-top: 14px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.under-link {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15pt;
+    font-weight: 400 !important;
+}
+
+ul.mx-auto {
+    margin-left: 100px !important;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(../../assets/logo.png);
+    width: 150px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 5%;
+    margin-left: -10px !important;
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
+
+.under-link {
+    margin: 3px;
+    font-weight: bold;
+    color: #545454;
+    font-size: 16pt;
+    display: inline-block;
+    position: relative;
+}
+
+.under-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f36c4a;
+    transition: width 0.3s ease-out;
+}
+
+.under-link:hover::before {
+    width: 100%;
+}
+
+.under-link:hover {
+    color: #f36c4a;
+}
+
+#btnEntrar, #btnCadastrar  {
+    padding: 9px 8px;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background: #F36C4A;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-right: 50px !important;
+    left: -5%;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background: #F36C4A;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    left: -5%;
+}
+
+button p {
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+#btnEntrar:hover, #btnCadastrar:hover, button:hover {
+    background: #545454;
+}
+
+
+#btnEntrar {
+    margin-left: inherit;
+}
+
+
+@media screen and (min-width: 1000px) {
+    #btnEntrar {
+        margin-left: 60px;
+    }
+  }

@@ -1,0 +1,90 @@
+<div class="container-fluid mt-5" id="principal">
+  <div class="row">
+    <div class="col-md-2 quadradoCadastra">
+      <p class="cadastra">Atualizar</p>
+    </div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col-md-11">
+          <div class="form-group iconDentro">
+            <label for="nome">Nome:</label>
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <input
+            [(ngModel)] = 'usuario.nome'
+              type="text"
+              class="form-control"
+              name="nome"
+              id="nome"
+            />
+          </div>
+
+          <div class="form-group iconDentro">
+            <label for="nome">E-mail:</label>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <input
+            [(ngModel)] = 'usuario.usuarioEmail'
+            type="email"
+            class="form-control"
+            name="email" id="email" />
+          </div>
+
+          <div class="form-group iconDentro">
+            <label for="nome">Link da foto:</label>
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <input
+            [(ngModel)] = "usuario.imagemUrl"
+            type="text" class="form-control" name="foto" id="foto" />
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group iconDentro">
+                <label for="senha" id="senhaLabel">Senha: </label>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input
+                (input)= "confirmarSenha($event)"
+                  class="form-control"
+                  type="password"
+                  name="senha"
+                  id="senha"
+                />
+                <span id="aviso"></span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group iconDentro">
+                <label for="confirmaSenha" id="senhaLabel2">
+                    Confirmar senha: 
+                </label>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input
+                [(ngModel)] = "usuario.senha"
+                  class="form-control"
+                  type="password"
+                  name="confirmaSenha"
+                  id="confirmaSenha"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="tipo">Tipo de Usuário:</label>
+            <select (change)="selecionarTipoUsuario($event)" [(ngModel)]='usuario.tipo' class="form-control" name="tipo" id="tipo">
+              <option value="normal">Parceiro</option>
+              <option value="adm">Organização não-governamental</option>
+            </select>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <button (click) = "atualizar()" type="submit" class="btnEnv">Atualizar</button>
+            <button routerLink="/minhaspostagens" type="submit" class="btnCan ml-1">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5" id="img-lateral">
+    </div>
+  </div>
+</div>

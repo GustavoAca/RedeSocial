@@ -1,0 +1,93 @@
+body{
+    margin-top: 10px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.mt{
+    margin-top: 150px;
+    
+}
+
+.firstParagraph {
+    margin-top: 130px;
+}
+
+.secondParagraph {
+    margin-top: 110px;
+    margin-bottom: 5px;
+}
+
+.thirdParagraph {
+    margin-top: 130px;
+}
+
+.iconMais {
+    margin-top: 150px;
+}
+
+p{
+    color: #545454;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.img1 {
+    align-items: rounded;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    float: left;
+    width: 140px;
+    height: 140px;
+    background:transparent url(../../assets/sn-img1.png) center bottom no-repeat;
+    background-size: 98%;
+}
+
+.img1:hover {
+    background-image: url(../../assets/sn-gif1.gif);
+}
+
+.img2 {
+    margin-bottom: 20px;
+    margin-left: 38px;
+    float: left;
+    width: 120px;
+    height: 90px;
+    background:transparent url(../../assets/sn-img2.png) center bottom no-repeat;
+    background-size: 98%;
+}
+
+.img2:hover {
+    background-image: url(../../assets/sn-gif2.gif);
+}
+
+.img3 {
+    margin-left: 70px;
+    float: left;
+    width: 170px;
+    height: 140px;
+    background:transparent url(../../assets/sn-img3.png) center bottom no-repeat;
+    background-size: 98%;
+}
+
+.img3:hover {
+    background-image: url(../../assets/sn-gif3.gif);
+}
+
+span {
+    color: #f36c4a;
+}
+
+h1 {
+    font-size: 7vmin;
+    color: #545454;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.sobreNosEsp{
+    line-height: 1;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+}

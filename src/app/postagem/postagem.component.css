@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width:100%;
+  overflow-x:hidden !important;
+  overflow-y:hidden !important;
+}
+
+.fundo {
+
+  background-image: url(https://i.imgur.com/miHbfgN.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.barra-lateral{
+  background-color: gray;
+}
+
+.logo-lateral {
+  opacity: .5;
+  position: fixed;
+  z-index: 99;
+  top:140px;
+  right:-16px;
+
+}
+
+.margin-0{
+  margin: 0;
+}
+
+.bg-fundo{
+  background-color: #dddddd;
+}
+
+.fz-15 {
+  font-size: 15px;
+}
+
+@media screen and (max-width:760px) {
+  .imagem-lateral{
+      width: auto;
+  }
+
+.font {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400; 
+}
+
+
+.fontData{
+  margin: 2px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/*Modal*/
+
+.textoModalDelet{
+  margin-left: 210px;
+  margin-bottom: 0px;}
+
+.botaoModalCentDelet{
+  margin-right: 140px;
+}
+
+.fundo{
+  background-image: url(https://i.imgur.com/miHbfgN.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+}
+
+#txt_consulta {
+  background-color:#d9d8da;
+  border: none;
+  
+}
+
+
+}

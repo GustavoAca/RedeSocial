@@ -1,0 +1,36 @@
+h4 {
+    font-size: 4vmin !important;
+    padding: auto;
+    font-family: 'Epilogue', sans-serif;
+    color: #868686;
+    text-align: center;
+    line-height: 35px;
+    font-weight: Thin 100;
+}
+
+h3 {
+    text-align: center !important;
+}
+
+#gif-como-funciona {
+    background-image: url(https://i.imgur.com/dsffp7B.gif);
+    background-size: contain;
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+}
+
+a,q {
+    color: #575757;
+    text-align: center !important;
+} 
+
+cite {
+    font-size: 5vmin !important;
+    color: #575757;
+    font-weight: Thin 100;
+}
+

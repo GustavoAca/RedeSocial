@@ -1,0 +1,174 @@
+/*Fonte*/
+
+.fs-54 {
+  font-size: 54px;
+}
+
+.fontEdit{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #545454;
+
+}
+
+.ft{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  font-size: 65px;
+  color: #545454;
+}
+/*Fonte*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.fundo{
+background-image: url(https://i.imgur.com/miHbfgN.jpg);  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+} 
+
+.azulTema{
+  color:#215DF2;
+
+}
+
+input{
+  background-color: #F4F4F4;
+  border: #F4F4F4;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*Botões*/
+
+.btn-AzulRedondo{
+    background-color: #215DF2 ;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+}
+
+.btn-AzulRedondo:hover{
+    background-color: #545454;
+    color: white;
+
+}
+
+.bg-bl {
+  background-color: #215df3;
+}
+
+.c-white{
+  color: white;
+}
+
+.btn-Azul{
+  background-color: #215DF2 ;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn-Azul:hover{
+  background-color: #545454;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+
+
+.btn-apagar{
+    background-color: #F16a4a;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+}
+
+.btn-apagar:hover{
+    background-color: #545454;
+    color:white;
+    outline: none;
+
+}
+
+.btn-Laranja{
+  background-color:  #215df2;
+  color: #fdfefd;
+  border: none;
+}
+
+.btn-Laranja:hover{
+  background-color:#545454;
+  color: #fdfefd;
+  border: none;
+  outline: none;
+
+}
+
+.btn-Laranja{
+  background-color: #f16a4a !important;
+  color: white !important;
+  border-color: #f16a4a !important;
+  outline: none;
+  border: none;
+}
+
+.btn-Laranja:hover{
+  background-color: #545454 !important;
+  color: white !important;
+}
+
+/*Botões*/
+
+/*Modal*/
+
+.textoModalDelet{
+  margin-left: 210px;
+  margin-bottom: 0px;
+  color: #545454;
+}
+
+.botaoModalCentDelet{
+  margin-right: 140px;
+}
+
+.fundo{
+  background-image: url(https://i.imgur.com/miHbfgN.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+}
+
+#txt_consulta {
+  background-color:#d9d8da;
+  border: none;
+  
+}
+
+.textoModalEdit{
+  margin-left: 210px;
+  margin-bottom: 0px;}
+
+.botaoModalCentEdit{
+  margin-right: 160px;
+}
+
+.textoModalCad{
+  color: #545454;
+  margin-left: 170px;
+  margin-bottom: 0px;
+}
+
+.txcad{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+}
+
+.botaoModalCentCad{
+  margin-right: 150px;
+}
+
+/*Modal*/
